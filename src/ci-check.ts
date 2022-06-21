@@ -1,38 +1,38 @@
-import srcDefault from "./tokens/pancakeswap-default.json";
-import srcExtended from "./tokens/pancakeswap-extended.json";
-import srcTop100 from "./tokens/pancakeswap-top-100.json";
-import srcTop15 from "./tokens/pancakeswap-top-15.json";
+import srcDefault from "./tokens/plexswap-default.json";
+import srcExtended from "./tokens/plexswap-extended.json";
+import srcTop100 from "./tokens/plexswap-top-100.json";
+import srcTop15 from "./tokens/plexswap-top-15.json";
 import srcCoingecko from "./tokens/coingecko.json";
 import srcCmc from "./tokens/cmc.json";
-import srcMini from "./tokens/pancakeswap-mini.json";
-import srcMiniExtended from "./tokens/pancakeswap-mini-extended.json";
-import defaultList from "../lists/pancakeswap-default.json";
-import extendedtList from "../lists/pancakeswap-extended.json";
-import top15List from "../lists/pancakeswap-top-15.json";
-import top100tList from "../lists/pancakeswap-top-100.json";
+import srcMini from "./tokens/plexswap-mini.json";
+import srcMiniExtended from "./tokens/plexswap-mini-extended.json";
+import defaultList from "../lists/plexswap-default.json";
+import extendedtList from "../lists/plexswap-extended.json";
+import top15List from "../lists/plexswap-top-15.json";
+import top100tList from "../lists/plexswap-top-100.json";
 import coingeckoList from "../lists/coingecko.json";
 import cmcList from "../lists/cmc.json";
-import miniList from "../lists/pancakeswap-mini.json";
-import miniExtendedList from "../lists/pancakeswap-mini-extended.json";
+import miniList from "../lists/plexswap-mini.json";
+import miniExtendedList from "../lists/plexswap-mini-extended.json";
 
 const lists = [
   {
-    name: "pancakeswap-default",
+    name: "plexswap-default",
     src: srcDefault,
     actual: defaultList,
   },
   {
-    name: "pancakeswap-extended",
+    name: "plexswap-extended",
     src: srcExtended,
     actual: extendedtList,
   },
   {
-    name: "pancakeswap-top-15",
+    name: "plexswap-top-15",
     src: srcTop15,
     actual: top15List,
   },
   {
-    name: "pancakeswap-top-100",
+    name: "plexswap-top-100",
     src: srcTop100,
     actual: top100tList,
   },
@@ -47,12 +47,12 @@ const lists = [
     actual: cmcList,
   },
   {
-    name: "pancakeswap-mini",
+    name: "plexswap-mini",
     src: srcMini,
     actual: miniList,
   },
   {
-    name: "pancakeswap-mini-extended",
+    name: "plexswap-mini-extended",
     src: srcMiniExtended,
     actual: miniExtendedList,
   },

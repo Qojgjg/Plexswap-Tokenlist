@@ -1,16 +1,16 @@
 {
-  "https://tokens.pancakeswap.finance/pancakeswap-default.json": {
-    "name": "PancakeSwap Default",
-    "homepage": "https://pancakeswap.finance"
+  "https://tokens.plexswap.finance/plexswap-default.json": {
+    "name": "PlexSwap Default",
+    "homepage": "https://plexswap.finance"
   },
-  "https://tokens.pancakeswap.finance/pancakeswap-extended.json": {
-    "name": "PancakeSwap Extended",
-    "homepage": "https://pancakeswap.finance"
+  "https://tokens.plexswap.finance/plexswap-extended.json": {
+    "name": "PlexSwap Extended",
+    "homepage": "https://plexswap.finance"
     
   },
-  "https://tokens.pancakeswap.finance/pancakeswap-top-100.json": {
-    "name": "PancakeSwap Top 100",
-    "homepage": "https://pancakeswap.finance"
+  "https://tokens.plexswap.finance/plexswap-top-100.json": {
+    "name": "PlexSwap Top 100",
+    "homepage": "https://plexswap.finance"
     
   },
   "https://tokens.coingecko.com/binance-smart-chain/all.json": {

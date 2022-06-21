@@ -1,22 +1,22 @@
 import fs from "fs";
 import path from "path";
 import { TokenList } from "@uniswap/token-lists";
-import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
-import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
-import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
-import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
+import { version as plexswapDefaultVersion } from "../lists/plexswap-default.json";
+import { version as plexswapExtendedVersion } from "../lists/plexswap-extended.json";
+import { version as plexswapTop15Version } from "../lists/plexswap-top-15.json";
+import { version as plexswapTop100Version } from "../lists/plexswap-top-100.json";
 import { version as coingeckoVersion } from "../lists/coingecko.json";
 import { version as cmcVersion } from "../lists/cmc.json";
-import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
-import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
-import pancakeswapDefault from "./tokens/pancakeswap-default.json";
-import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
-import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
-import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
+import { version as plexswapMiniVersion } from "../lists/plexswap-mini.json";
+import { version as plexswapMiniExtendedVersion } from "../lists/plexswap-mini-extended.json";
+import plexswapDefault from "./tokens/plexswap-default.json";
+import plexswapExtended from "./tokens/plexswap-extended.json";
+import plexswapTop100 from "./tokens/plexswap-top-100.json";
+import plexswapTop15 from "./tokens/plexswap-top-15.json";
 import coingecko from "./tokens/coingecko.json";
 import cmc from "./tokens/cmc.json";
-import pancakeswapMini from "./tokens/pancakeswap-mini.json";
-import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import plexswapMini from "./tokens/plexswap-mini.json";
+import plexswapMiniExtended from "./tokens/plexswap-mini-extended.json";
 
 export enum VersionBump {
   "major" = "major",
@@ -31,37 +31,37 @@ type Version = {
 };
 
 const lists = {
-  "pancakeswap-default": {
-    list: pancakeswapDefault,
-    name: "PancakeSwap Default",
-    keywords: ["pancakeswap", "default"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-default": {
+    list: plexswapDefault,
+    name: "PlexSwap Default",
+    keywords: ["plexswap", "default"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: false,
-    currentVersion: pancakeswapDefaultVersion,
+    currentVersion: plexswapDefaultVersion,
   },
-  "pancakeswap-extended": {
-    list: pancakeswapExtended,
-    name: "PancakeSwap Extended",
-    keywords: ["pancakeswap", "extended"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-extended": {
+    list: plexswapExtended,
+    name: "PlexSwap Extended",
+    keywords: ["plexswap", "extended"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapExtendedVersion,
+    currentVersion: plexswapExtendedVersion,
   },
-  "pancakeswap-top-100": {
-    list: pancakeswapTop100,
-    name: "PancakeSwap Top 100",
-    keywords: ["pancakeswap", "top 100"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-top-100": {
+    list: plexswapTop100,
+    name: "PlexSwap Top 100",
+    keywords: ["plexswap", "top 100"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop100Version,
+    currentVersion: plexswapTop100Version,
   },
-  "pancakeswap-top-15": {
-    list: pancakeswapTop15,
-    name: "PancakeSwap Top 15",
-    keywords: ["pancakeswap", "top 15"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-top-15": {
+    list: plexswapTop15,
+    name: "PlexSwap Top 15",
+    keywords: ["plexswap", "top 15"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop15Version,
+    currentVersion: plexswapTop15Version,
   },
   coingecko: {
     list: coingecko,
@@ -80,21 +80,21 @@ const lists = {
     sort: true,
     currentVersion: cmcVersion,
   },
-  "pancakeswap-mini": {
-    list: pancakeswapMini,
-    name: "PancakeSwap Mini",
-    keywords: ["pancakeswap", "binance", "mini program", "mini"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-mini": {
+    list: plexswapMini,
+    name: "PlexSwap Mini",
+    keywords: ["plexswap", "binance", "mini program", "mini"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniVersion,
+    currentVersion: plexswapMiniVersion,
   },
-  "pancakeswap-mini-extended": {
-    list: pancakeswapMiniExtended,
-    name: "PancakeSwap Mini Ext",
-    keywords: ["pancakeswap", "binance", "mini program", "mini", "extended"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "plexswap-mini-extended": {
+    list: plexswapMiniExtended,
+    name: "PlexSwap Mini Ext",
+    keywords: ["plexswap", "binance", "mini program", "mini", "extended"],
+    logoURI: "https://plexswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniExtendedVersion,
+    currentVersion: plexswapMiniExtendedVersion,
   },
 };
 

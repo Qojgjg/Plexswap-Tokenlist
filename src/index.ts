@@ -26,7 +26,7 @@ switch (command) {
     ciCheck();
     break;
   case "get-list-from-addresses":
-    getTokensChainData("pancakeswap-mini-extended");
+    getTokensChainData("plexswap-mini-extended");
     break;
   default:
     console.info("Unknown command");

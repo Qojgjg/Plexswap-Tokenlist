@@ -6884,12 +6884,12 @@
       "logoURI": "https://assets.coingecko.com/coins/images/20198/thumb/cai.PNG?1636615663"
     },
     {
-      "name": "PancakeSwap",
+      "name": "PlexSwap",
       "symbol": "Cake",
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://assets.coingecko.com/coins/images/12632/thumb/pancakeswap-cake-logo_%281%29.png?1629359065"
+      "logoURI": "https://assets.coingecko.com/coins/images/12632/thumb/plexswap-cake-logo_%281%29.png?1629359065"
     },
     {
       "name": "CakeBaker",
